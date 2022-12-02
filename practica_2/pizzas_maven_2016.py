@@ -87,9 +87,6 @@ def load(d_ingr):
         # Recibe como parámetro el diccionario de ingredientes a comprar semanalmente.
         # Crea un dataframe con los ingredientes y sus cantidades y lo guarda en un csv.
         # Muestra por pantalla el dataframe.
-        """
-        compra_semana = pd.DataFrame([[key, d_ingr[key]] for key in d_ingr.keys()], columns=['Ingrediente', 'Unidades'])
-        """
         compra_semana = pd.DataFrame(d_ingr.items(), columns=['Ingrediente', 'Unidades'])
         compra_semana.to_csv('compra_semana.csv', index=False)
         print('El dataframe con la cantidad de ingredientes a comprar semanalmente es:\n')
