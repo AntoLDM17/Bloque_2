@@ -15,5 +15,4 @@ To execute the program, run "pizzas_maven.py" or "pizzas_maven_2016.py".
 Also, it is possible to create a docker image to deploy the program in a safer way.
 To do that, just run the following command in the console, inside the directory where you clone this repository:
 
-docker build . -t Bloque_2/practica_1
-docker build . -t Bloque_2/practica_2
+docker build . -t Bloque_2
