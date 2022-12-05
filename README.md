@@ -11,7 +11,7 @@ Added support for analyzing data from 2016. This new data had to be cleaned so I
 New files to support this, were also created by modifying the original ones.
 
 ### Instructions:
-To execute the program, run "pizzas_maven.py" or "pizzas_maven_2016.py".
+To execute the program, use pip install -r requirements.txt to download the libraries needed. And then run "pizzas_maven.py" or "pizzas_maven_2016.py".
 Also, it is possible to create a docker image to deploy the program in a safer way.
 To do that, just run the following command in the console, inside the directory where you clone this repository:
 
